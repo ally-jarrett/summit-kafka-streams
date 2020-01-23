@@ -167,6 +167,7 @@ parameters:
   - name: SOURCE_REPOSITORY_URL
     description: The source URL for the application
     displayName: Source URL
+    value: http://mygitea:3000/gitadmin/uki-pam-summit.git
     required: true
   - name: SOURCE_REPOSITORY_REF
     description: The branch name for the application

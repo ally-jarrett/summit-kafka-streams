@@ -4,4 +4,4 @@ Proactive Fraud Detection with Cloud Native Case Management, Kafka and Decision 
 
     mvn clean install
 
-    oc process -f .openshiftio/application.yaml -p SOURCE_REPOSITORY_URL=https://github.com/garethahealy/uki-pam-summit.git | oc create -f -
+    oc process -f .openshiftio/application.yaml | oc create -f -
